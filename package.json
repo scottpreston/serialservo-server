@@ -1,0 +1,27 @@
+{
+  "name": "serialservo-server",
+  "version": "0.0.1",
+  "description": "this is a restful service endpoint microservice for the serialservo module",
+  "main": "lib/ssc-server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottpreston/serialservo-server"
+  },
+  "keywords": [
+    "serial serovo controller",
+    "ssc"
+  ],
+  "author": "Scott Preston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottpreston/serialservo-server/issues"
+  },
+  "dependencies": {
+    "restify": "^4.0.4",
+    "restify-errors": "^4.2.3",
+    "serialservo": "^0.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
