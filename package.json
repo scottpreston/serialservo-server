@@ -1,6 +1,6 @@
 {
   "name": "serialservo-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "this is a restful service endpoint microservice for the serialservo module",
   "main": "lib/ssc-server.js",
   "repository": {
