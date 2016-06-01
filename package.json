@@ -1,6 +1,6 @@
 {
   "name": "serialservo-server",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "this is a restful service endpoint microservice for the serialservo module",
   "main": "lib/ssc-server.js",
   "repository": {
@@ -11,17 +11,24 @@
     "serial serovo controller",
     "ssc"
   ],
+  "scripts": {
+    "start": "node examples/server.js",
+    "test": "jasmine",
+    "coverage" : "istanbul cover node_modules/jasmine/bin/jasmine.js test/unit/*.js"
+  },
   "author": "Scott Preston",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/scottpreston/serialservo-server/issues"
   },
   "dependencies": {
-    "restify": "^4.0.4",
-    "restify-errors": "^4.2.3",
-    "serialservo": "^0.1.1"
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "serialservo": "^0.1.3"
   },
   "devDependencies": {
-    "jasmine": "^2.4.1"
+    "jasmine": "^2.4.1",
+    "request": "^2.72.0"
   }
 }

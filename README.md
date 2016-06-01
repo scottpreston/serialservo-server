@@ -28,7 +28,9 @@ var configOptions = {
                         portName: '/dev/ttyUSB1', 
                         serialPortOptions: { 
                             baudRate: 9600
-                        }
+                        },
+                        staticDir: 'somedirector',
+                        httpPort: 3000
                     };
 var sscServer = new SerialServoServer(configOptions);
 sscServer.run();
