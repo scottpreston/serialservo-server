@@ -1,4 +1,4 @@
-var SerialServoServer = require('../../lib/ssc-server.js');
+var SerialServoServer = require('../lib/ssc-server.js');
 
 describe("the server should do the following things", function () {
 

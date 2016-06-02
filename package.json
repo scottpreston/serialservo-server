@@ -14,7 +14,7 @@
   "scripts": {
     "start": "node examples/server.js",
     "test": "jasmine",
-    "coverage" : "istanbul cover node_modules/jasmine/bin/jasmine.js test/unit/*.js"
+    "coverage" : "istanbul cover node_modules/jasmine/bin/jasmine.js test/*.js"
   },
   "author": "Scott Preston",
   "license": "MIT",
