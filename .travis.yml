@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+  - "4"
+branches:
+  only:
+    - master
+install:
+- npm install
+script:
+- npm test
+after_success:
+- npm run coverage

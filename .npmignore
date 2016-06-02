@@ -1,0 +1,7 @@
+.travis.yml
+examples
+# MIRRORED FROM .gitignore PLEASE MAINTAIN
+.idea/
+node_modules/
+.DS_Store
+coverage/
